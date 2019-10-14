@@ -42,7 +42,7 @@ export default new Router({
       component: () => import('./views/admin/product/Insert.vue')
     },
     {
-      path: '/admin/product/update',
+      path: '/admin/product/update/:id',
       name: 'Admin Product Update',
       component: () => import('./views/admin/product/Update.vue')
     }
